@@ -1,0 +1,51 @@
+.account_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(124, 124, 249);
+    height: 100vh;
+}
+
+.account_form .form_container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_container>p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.form_container .form_input {
+    width: 90%;
+    padding: 0 10px;
+    margin: 5px 0px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form_container button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(222, 74, 74);
+}
+
+.form_container button:hover {
+    background-color: rgb(213, 46, 46);
+}

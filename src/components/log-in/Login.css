@@ -1,0 +1,85 @@
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+    margin: auto;
+    margin-top: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+}
+
+.formdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+}
+
+.formlogo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forminput {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid lightblue;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+.form-button {
+    line-height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 164, 230);
+    box-shadow: 1px 1px 4px black;
+    outline: none;
+    font-weight: bolder;
+    padding: 0 40px 0 40px;
+    font-size: 15px;
+}
+
+.form-button:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+.formhead {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.otp:focus {
+    letter-spacing: 20px;
+}
+
+@media screen and (max-width: 530px) {
+    .form-container {
+        font-size: 15px;
+        width: 95%;
+    }
+    .forminput {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .formhead {
+        font-size: 25px;
+    }
+    .form-button {
+        padding: 0 20px 0 20px;
+    }
+}
